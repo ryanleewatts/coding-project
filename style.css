@@ -321,3 +321,23 @@ h5 {
  .highcharts-axis-labels {
      font-family: 'Playfair Display', serif;
  }
+
+ .databitone {
+   margin: 20px;
+   font-size: 40px;
+ }
+
+ .databittwo {
+   margin: 20px;
+   text-align: left;
+ }
+
+ .databitthree {
+   margin: 20px;
+   text-align: left;
+ }
+
+ .databitfour {
+   margin: 20px;
+   text-align: left;
+ }
