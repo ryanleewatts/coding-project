@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Graph One
 
 $(function () {
@@ -127,7 +126,7 @@ $(function () {
 var s = document.getElementsByID('myDropdown');
 var text = s.options[s.selectedIndex].text;
 document.getElementsByID('databitid').innerHTML = text;
-=======
+
 // Graph One
 
 $(function () {
@@ -256,4 +255,3 @@ $(function () {
 var s = document.getElementsByID('myDropdown');
 var text = s.options[s.selectedIndex].text;
 document.getElementsByID('databitid').innerHTML = text;
->>>>>>> origin/master
