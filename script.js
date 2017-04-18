@@ -136,5 +136,9 @@ function submitFunction() {
 var select = document.getElementById('myDropdown');
 var input = document.getElementById('name');
 select.onchange = function() {
-    document.getElementById('databit').innerHTML = select.value; //change the "select.value" bit to whatever you want to show
+    document.getElementById('databitone').innerHTML = "<div>Guns N Roses vs " + select.value + "</div>"
+    document.getElementById('databittwo').innerHTML = "<div>Countries visited in 2016</div>"
+    document.getElementById('databitthree').innerHTML = "<div>Length of set by song length</div>"
+    document.getElementById('databitfour').innerHTML = "<div>Percentage of set from first album</div>"
+
 }
