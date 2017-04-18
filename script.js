@@ -252,6 +252,18 @@ $(function () {
 
 // Interactive
 
-var s = document.getElementsByID('myDropdown');
-var text = s.options[s.selectedIndex].text;
-document.getElementsByID('databitid').innerHTML = text;
+function submitFunction() {
+    var x = document.getElementById('databit');
+    if (x.style.display !== 'none') {
+        x.style.display = 'none';
+    } else {
+      	x.style.display = 'block';
+    }
+}
+
+//Changes the inner html for the databit
+var select = document.getElementById('myDropdown');
+var input = document.getElementById('name');
+select.onchange = function() {
+    document.getElementById('databit').innerHTML = select.value; //change the "select.value" bit to whatever you want to show
+}
