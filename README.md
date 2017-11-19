@@ -5,7 +5,7 @@ This tool allows the user to scrape setlists (and contextual information) from S
 The Python script scrapes a list of all setlists for a certain band
 
 ### To use
-Go into the 'Scraper' folder and load up the python script.
+Go into the 'scraper' folder and load up the python script.
 
 You'll need to install:
 - pandas
