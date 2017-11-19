@@ -101,28 +101,31 @@
             <div class="ihrowthree"><p3>Pick a band from the list to compare them to the LA rockers:</p3></div><br>
               <form>
                 <select class="dropdown" id="myDropdown" class="dropdown-content">
-                    <option value="" selected>Choose Your Band</option>
-                    <option value="Rolling Stones">Rolling Stones</option>
-                    <option value="Led Zeppelin">Led Zepplin</option>
-                    <option value="Foo Fighters">Foo Fighters</option>
-                    <option value="Queens of the Stone Age">Queens of the Stone Age</option>
-                    <option value="Aerosmith">Aerosmith</option>
-                    <option value="Motley Crue">Motley Crue</option>
-                    <option value="Kiss">Kiss</option>
-                    <option value="ACDC">ACDC</option>
-                    <option value="Nirvana">Nirvana</option>
-                    <option value="Coldplay">Coldplay</option>
+                    <option data="" selected>Choose Your Band</option>
+                    <option data="Rolling Stones" value=1>Rolling Stones</option>
+                    <option data="Led Zeppelin" value=2>Led Zepplin</option>
+                    <option data="Foo Fighters" value=3>Foo Fighters</option>
+                    <option data="Aerosmith" value=4>Aerosmith</option>
+                    <option data="Motley Crue" value=5>Motley Crue</option>
+                    <option data="Kiss" value=6>Kiss</option>
+                    <option data="ACDC" value=7>ACDC</option>
+                    <option data="Coldplay" value=8>Coldplay</option>
                 </select>
-                <input type="button" class="dropbtn" id="name" value="Submit" onclick="submitFunction()">
+                <input type="button" class="dropbtn" id="name" value="Reset" onclick="submitFunction()">
               </form>
             </div>
           <div class="databit" id="databit">
-            <div class="databitone" id="databitone"></div>
-            <div class="databittwo" id="databittwo"></div>
-            <div class="databitthree" id="databitthree"></div>
-            <div class="databitfour" id="databitfour"></div>
+            <div class="databitone" id="databitone">
+            </div>
+            <div class="databittwo" id="databittwo">
+            </div>
+            <div class="databitthree" id="databitthree">
+            </div>
+            <div class="databitfour" id="databitfour">
+            </div>
           </div>
         </div>
+<!-- Band comparison interactive ENDS -->
 
         <p>
           A thirty year career of hard drugs and explosive conflict made a return for GNR seem impossible. With Axl once describing one bandmate as 'a cancer' the rift between troubled musicians seemed too large to mend.
@@ -168,4 +171,3 @@
 </body>
 
 </html>
-
