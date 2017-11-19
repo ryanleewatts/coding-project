@@ -27,7 +27,7 @@ Copy that in between the first mark and the question mark, keeping the 'page=' s
 ## Example of how the tool can be used
 I wrote a piece using the data grabbed from the scraper about Guns N Roses. They play UK shows this summer (2017) on the anniversary of their debut album, so I have visualised some of the data you can scrape with this tool using Hghcharts, and semi-built an interactive where the user can compare GNR to other bands. 
 
-I have included all of the code here, and it's hosted at: <a href="http://ryanleewatts.github.io">ryanleewatts.github.io</a>
+I have included all of the code here, and it's hosted at: <a href="http://coding-project.ryanleewatts.com">ryanleewatts.github.io</a>
 
 ## Thank you, and enjoy! 
 
