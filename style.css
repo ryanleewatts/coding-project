@@ -341,3 +341,35 @@ h5 {
    margin: 20px;
    text-align: left;
  }
+
+ .spanone {
+   text-decoration: underline;
+   text-decoration-color: #a80000;
+ }
+
+ .spantwo {
+   text-decoration: underline;
+   text-decoration-color: #13354E;
+ }
+
+ .leftbar {
+   height: 50px;
+   background-color: #a80000;
+   display: inline-block;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 50px;
+ }
+
+ .rightbar {
+   height: 50px;
+   background-color: #13354E;
+   display: inline-block;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 50px;
+ }
